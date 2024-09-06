@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(XSharpMsBuildDir)\XSharp.Default.props" />
+  <PropertyGroup>
+    <Name>DynamicMenus</Name>
+    <ProjectGuid>277aa1c5-bbb4-4c9d-9f1e-a69027bfa511</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DynamicMenus</RootNamespace>
+    <AssemblyName>DynamicMenus</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <Dialect>FoxPro</Dialect>
+    <Allowdot>True</Allowdot>
+    <NamedArgs>True</NamedArgs>
+    <OutputName>DynamicMenus</OutputName>
+    <StartupObject />
+    <LB>True</LB>
+    <AllowOldStyleAssignments>True</AllowOldStyleAssignments>
+    <InitLocals>True</InitLocals>
+    <MemVar>True</MemVar>
+    <Undeclared>True</Undeclared>
+    <Fox1>True</Fox1>
+    <Fox2>True</Fox2>
+    <EnforceOverride>True</EnforceOverride>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(XSharpMsBuildDir)\XSharp.targets" />
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="XSharp.Core">
+      <Name>XSharp.Core</Name>
+      <SpecificVersion>False</SpecificVersion>
+      <AssemblyName>XSharp.Core.dll</AssemblyName>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="XSharp.RT">
+      <Name>XSharp.RT</Name>
+      <SpecificVersion>False</SpecificVersion>
+      <AssemblyName>XSharp.RT.dll</AssemblyName>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.RT.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="XSharp.VFP">
+      <Name>XSharp.VFP</Name>
+      <SpecificVersion>False</SpecificVersion>
+      <AssemblyName>XSharp.VFP.dll</AssemblyName>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.VFP.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMain.Designer.prg">
+      <DependentUpon>frmMain.prg</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.prg">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuBuilder.Designer.prg">
+      <DependentUpon>frmMenuBuilder.prg</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuBuilder.prg">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.prg">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.prg">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.prg</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMenuBuilder.resx">
+      <DependentUpon>frmMenuBuilder.prg</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent />
+  </PropertyGroup>
+</Project>
