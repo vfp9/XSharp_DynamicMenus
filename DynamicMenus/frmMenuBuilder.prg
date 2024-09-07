@@ -1,20 +1,21 @@
-﻿using System
-using System.Collections.Generic
-using System.ComponentModel
-using System.Data
-using System.Drawing
+﻿Using System
+Using System.Collections.Generic
+Using System.ComponentModel
+Using System.Data
+Using System.Drawing
 
-using System.Text
+Using System.Text
 
-using System.Windows.Forms
+Using System.Windows.Forms
 
-begin namespace DynamicMenus
+Begin Namespace DynamicMenus
 
-    public partial class frmMenuBuilder inherit System.Windows.Forms.Form
+    Public Partial Class frmMenuBuilder ;
+        Inherit System.Windows.Forms.Form
 
         public constructor() strict
             InitializeComponent()
             return
         end constructor
-    end class
-end namespace
+    End Class 
+End Namespace

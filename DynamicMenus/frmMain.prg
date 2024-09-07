@@ -22,11 +22,14 @@ Begin Namespace DynamicMenus
 	        Local frmMenu As Form
 
 	        frmMenu = frmMenuBuilder{}
-	        frmMenu.MdiParent := This
-	        frmMenu:Show()
+	        frmMenu.MdiParent = This
+	        frmMenu.Show()
 	        *!* This.InitializeDynamicMenu()
             Return
         End Method
+        Private Method toolStrip1_ItemClicked(sender As System.Object, e As System.Windows.Forms.ToolStripItemClickedEventArgs) As Void Strict
+            Return
+        END METHOD
         
     End Class 
 End Namespace
