@@ -101,6 +101,16 @@
       <DependentUpon>frmMenuBuilder.prg</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMain.zh-CN.resx">
+      <DependentUpon>frmMain.prg</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMenuBuilder.zh-CN.resx">
+      <DependentUpon>frmMenuBuilder.prg</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <PreBuildEvent />
     <PostBuildEvent />

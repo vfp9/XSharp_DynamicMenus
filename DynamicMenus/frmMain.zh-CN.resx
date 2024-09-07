@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,138 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="mnuMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="mnuExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 34</value>
-  </data>
   <data name="mnuExit.Text" xml:space="preserve">
-    <value>&amp;Close</value>
-  </data>
-  <data name="mnuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 28</value>
+    <value>关闭(&amp;C)</value>
   </data>
   <data name="mnuFile.Text" xml:space="preserve">
-    <value>&amp;File</value>
-  </data>
-  <data name="mnuStatusBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 34</value>
+    <value>文件(&amp;F)</value>
   </data>
   <data name="mnuStatusBar.Text" xml:space="preserve">
-    <value>&amp;Status bar</value>
-  </data>
-  <data name="mnuView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 28</value>
+    <value>状态栏(&amp;S)</value>
   </data>
   <data name="mnuView.Text" xml:space="preserve">
-    <value>&amp;View</value>
+    <value>查看(&amp;V)</value>
   </data>
-  <data name="mnuMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="mnuMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1286, 32</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mnuMain.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>菜单示例 - 主窗口</value>
   </data>
   <data name="mnuMain.Text" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
-  <data name="&gt;&gt;mnuMain.Name" xml:space="preserve">
-    <value>mnuMain</value>
-  </data>
-  <data name="&gt;&gt;mnuMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;mnuMain.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="sbrMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>165, 17</value>
-  </metadata>
-  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 24</value>
-  </data>
-  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
-    <value>        </value>
-  </data>
-  <data name="sbrMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 744</value>
-  </data>
-  <data name="sbrMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1286, 31</value>
-  </data>
-  <data name="sbrMain.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="sbrMain.Text" xml:space="preserve">
     <value>statusStrip1</value>
-  </data>
-  <data name="&gt;&gt;sbrMain.Name" xml:space="preserve">
-    <value>sbrMain</value>
-  </data>
-  <data name="&gt;&gt;sbrMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sbrMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;sbrMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 18</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1286, 775</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Menu Sample - Main Window</value>
-  </data>
-  <data name="&gt;&gt;mnuFile.Name" xml:space="preserve">
-    <value>mnuFile</value>
-  </data>
-  <data name="&gt;&gt;mnuFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuExit.Name" xml:space="preserve">
-    <value>mnuExit</value>
-  </data>
-  <data name="&gt;&gt;mnuExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuView.Name" xml:space="preserve">
-    <value>mnuView</value>
-  </data>
-  <data name="&gt;&gt;mnuView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuStatusBar.Name" xml:space="preserve">
-    <value>mnuStatusBar</value>
-  </data>
-  <data name="&gt;&gt;mnuStatusBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
-    <value>toolStripStatusLabel1</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frmMain</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
