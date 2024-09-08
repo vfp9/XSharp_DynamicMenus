@@ -16,8 +16,8 @@
     <LB>True</LB>
     <AllowOldStyleAssignments>True</AllowOldStyleAssignments>
     <InitLocals>True</InitLocals>
-    <MemVar>True</MemVar>
-    <Undeclared>True</Undeclared>
+    <MemVar>False</MemVar>
+    <Undeclared>False</Undeclared>
     <Fox1>True</Fox1>
     <Fox2>True</Fox2>
     <EnforceOverride>True</EnforceOverride>

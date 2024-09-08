@@ -134,7 +134,7 @@
     <value>&amp;File</value>
   </data>
   <data name="mnuStatusBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 34</value>
+    <value>270, 34</value>
   </data>
   <data name="mnuStatusBar.Text" xml:space="preserve">
     <value>&amp;Status bar</value>

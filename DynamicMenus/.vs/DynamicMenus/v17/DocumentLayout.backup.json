@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{277AA1C5-BBB4-4C9D-9F1E-A69027BFA511}|DynamicMenus.xsproj|E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMain.prg||{B4829761-2BFA-44B7-8F8F-D2625EBCF218}|Design",
-      "RelativeMoniker": "D:0:0:{277AA1C5-BBB4-4C9D-9F1E-A69027BFA511}|DynamicMenus.xsproj|solutionrelative:frmMain.prg||{B4829761-2BFA-44B7-8F8F-D2625EBCF218}|Design"
+      "AbsoluteMoniker": "D:0:0:{277AA1C5-BBB4-4C9D-9F1E-A69027BFA511}|DynamicMenus.xsproj|E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMain.prg||{B4829761-2BFA-44B7-8F8F-D2625EBCF218}|",
+      "RelativeMoniker": "D:0:0:{277AA1C5-BBB4-4C9D-9F1E-A69027BFA511}|DynamicMenus.xsproj|solutionrelative:frmMain.prg||{B4829761-2BFA-44B7-8F8F-D2625EBCF218}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{277AA1C5-BBB4-4C9D-9F1E-A69027BFA511}|DynamicMenus.xsproj|E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMenuBuilder.prg||{B4829761-2BFA-44B7-8F8F-D2625EBCF218}|Design",
-      "RelativeMoniker": "D:0:0:{277AA1C5-BBB4-4C9D-9F1E-A69027BFA511}|DynamicMenus.xsproj|solutionrelative:frmMenuBuilder.prg||{B4829761-2BFA-44B7-8F8F-D2625EBCF218}|Design"
+      "AbsoluteMoniker": "D:0:0:{277AA1C5-BBB4-4C9D-9F1E-A69027BFA511}|DynamicMenus.xsproj|E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMain.prg||{B4829761-2BFA-44B7-8F8F-D2625EBCF218}|Design",
+      "RelativeMoniker": "D:0:0:{277AA1C5-BBB4-4C9D-9F1E-A69027BFA511}|DynamicMenus.xsproj|solutionrelative:frmMain.prg||{B4829761-2BFA-44B7-8F8F-D2625EBCF218}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,25 +27,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmMain.prg [\u8BBE\u8BA1]",
+              "Title": "frmMain.prg",
               "DocumentMoniker": "E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMain.prg",
               "RelativeDocumentMoniker": "frmMain.prg",
-              "ToolTip": "E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMain.prg [\u8BBE\u8BA1]",
-              "RelativeToolTip": "frmMain.prg [\u8BBE\u8BA1]",
+              "ToolTip": "E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMain.prg*",
+              "RelativeToolTip": "frmMain.prg*",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAQwJkAAABCAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAZTSURBVEhL3VVbbBTnFT5z2d2Znb3O3u21jQ02NsbG2GAcQ2xSEiUqDanaJooQSVylQlWrtMrtBZKQtqnaiii0eWmf2ockagK5FiEKCk2oA9RgbHzHBIN3be/F3uvs7OzOzj8z/WeLUCq1Ul/y0u/ln3P2/Oc75z\u002BXha8Vuq7f\u002Bfr6QHzz4SdBLMqgIA0oigAbZ4GZqauwFJm9YwKwobsRdt67E1bESFV2mXkoKkXY2fpjKEoKFMQy1AScwOG7kaU0kCQBdbU8/PSHDwHZ0fMwoUCAu7GQBKnitXkDLTD40LNVRwY29myAfUd3Q9vj9damR/2hpu/5Q/1DPfa\u002BA12gKDosR\u002BbC02OnCKFQpuOJPDV\u002B\u002BS/EtSsniXIZEcZ9siDKHhMbnqlp3CMiIhC/PHLxaRKH8J39L1cJ\u002Bp7sAivNmRaFmx8kiitfJqWVGyUkvlhCEpw6/Sk5fZP4IidvWl1NFa2ptOTLyu25vNI\u002BP3sjSVcJsK/U1o66Y0hRLbKMrJyn/w2vx7bF7loHux55AJxtDNjNzseXCrf2KFqFZWhrbnF8\u002BWfUl53AMiaLpuluiiYL\u002BAe5XEE8QhpDU1S2UkHqg3sPAEngRCoK\u002BkN92H3JYJSkCjdzPf5rfNm8/v7N4Odq\u002BMnU6KuaruEKEVriY\u002Bkxu3udevXMgnUlOlejqhpLklBKrhZaJEnuRkilGAulnDvzZ33r9n128uN3fwmCWJZbNgSes1joIuYgokuZPZzV8hRDWklJEZ/JlNcaDHIfG7owMNQ7lrrYQBTKns8Y145ZRVGpgiBvxE8yOncj\u002BUfcmUQ8KfR5wwOSqul7KSG/BuH6TeBy\u002B\u002BO1IZd3MZrZgbuXTKaEnv6B4MQ1\u002BezrSEesmTTLmzxdQ6qGbq/Tt0Mo4Lzl99mFxWiqNxhwDPdtazzs4TkhFs9t3dQaOjVwT/PPUWnlPdKI7PRHv4FUpqjTNPma18NdN3SCUAp9PnnlwzIqu7Got/Fb3sHnRcjxkEoLMDW38hnv4uZwLMDztompufgJh4ONGrLXYx\u002BeuR470dHZg6U7GD77W1hLi9mujrpDmAiZeBEy2QKHCoxuMzkSTguP66DqHx4ZhVIZGVNqyeWlWsCz6nIwuYCXY/L5Uq3hiwAtZ2Vpy/zNOP7\u002BCg4cfAWCdc1UPJ05MV\u002B8/AhBI8LslPUH97Q/u5Jee/Pm2VmI/IPD3WMGk703ghByyxWVs1ioPEXiciHVqSialWXpnN3GRFvW\u002B/vvZmBAbRsH265JE7P7QpC2l6s6KeKD2Nlmr3qll4hfdUJN0AUDgwMmnOkHvNuWwiZ60zrfp52b697HjSHgvtftTO733Vsajndurq/cJXjgBwO451kgTdpQXLm1nWtKg14x62VMMDIS/Qlvc3a2de2FYLgVasJtylq68DxNUxHDIY7\u002BmMdtfQF3YZamSCW6OPsSfrpf4Y2h3iXYNbQNmpwttVOpq4d10Eg2UNL8psaEhkiQSoptdj5\u002BFBfVnMkU4fDz3wKngyHkiuKmKBKZTVQaO6bxerDRJrLcf\u002B93\u002BY/efQ2eOXj/v4q8/9g\u002BMBFmMl1eOyIqQsjQrXdt/GtHS/2jZpNJxCKxcDt1H2c1P2FzNUL3jm9Da0uQMBOrJzLxvx/p722Kb2wOQuz2336XiQ3/Yn2TT4wuzhhugDI25fYn2sFmduwaW710FHcKzVBsodO3bX96gRn3cF73Uix7jzEbq6lC99aO8HGKCRcCXocuFOlhB990sbO9VsabFCWztpGautZLXt6mfvH58SoB8cbIqyChIrMoLJxbERf7sE7v8fcfNVOWQ/MnfbqPbPCMXoteWEuJzcaF3p6Gt3GHfP/2wpRmzI\u002BBwcHB6nn\u002B/Pnq\u002BVWQsloGHPHT8WK011C4Ld4oQ7Ov5\u002BSMfu6tP\u002BEBFNO93Q2H8Bsjo6nHJ5cfw2bfsDqq26MKw/F/cm7AqIFlPjv9FEtzaTxQyZ5A/yvJYiz9/nNnIBGbh7IYBbxTPulorzEiX2MYU345lvtRfS3/bzP030D7rSFZ1bXdPiWINzepe9mAND0yA9GJWNVgauwkWLh6NRR0HrSyZtbIwu20ooDf8T/931K1tgZITeeV7KxUKVyXleWJBIydnoLEcrJqkE4lgEBx8Dg1XRIiFaW0XCkVoiiJs5ucGK3a/D8D4J\u002BgANLkFoHCDgAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-09-07T06:13:59.737Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-09-08T02:06:14.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmMenuBuilder.prg [\u8BBE\u8BA1]",
-              "DocumentMoniker": "E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMenuBuilder.prg",
-              "RelativeDocumentMoniker": "frmMenuBuilder.prg",
-              "ToolTip": "E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMenuBuilder.prg [\u8BBE\u8BA1]",
-              "RelativeToolTip": "frmMenuBuilder.prg [\u8BBE\u8BA1]",
+              "Title": "frmMain.prg [\u8BBE\u8BA1]",
+              "DocumentMoniker": "E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMain.prg",
+              "RelativeDocumentMoniker": "frmMain.prg",
+              "ToolTip": "E:\\My_GitHub\\XSharp_DynamicMenus\\DynamicMenus\\frmMain.prg [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "frmMain.prg [\u8BBE\u8BA1]*",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAZTSURBVEhL3VVbbBTnFT5z2d2Znb3O3u21jQ02NsbG2GAcQ2xSEiUqDanaJooQSVylQlWrtMrtBZKQtqnaiii0eWmf2ockagK5FiEKCk2oA9RgbHzHBIN3be/F3uvs7OzOzj8z/WeLUCq1Ul/y0u/ln3P2/Oc75z\u002BXha8Vuq7f\u002Bfr6QHzz4SdBLMqgIA0oigAbZ4GZqauwFJm9YwKwobsRdt67E1bESFV2mXkoKkXY2fpjKEoKFMQy1AScwOG7kaU0kCQBdbU8/PSHDwHZ0fMwoUCAu7GQBKnitXkDLTD40LNVRwY29myAfUd3Q9vj9damR/2hpu/5Q/1DPfa\u002BA12gKDosR\u002BbC02OnCKFQpuOJPDV\u002B\u002BS/EtSsniXIZEcZ9siDKHhMbnqlp3CMiIhC/PHLxaRKH8J39L1cJ\u002Bp7sAivNmRaFmx8kiitfJqWVGyUkvlhCEpw6/Sk5fZP4IidvWl1NFa2ptOTLyu25vNI\u002BP3sjSVcJsK/U1o66Y0hRLbKMrJyn/w2vx7bF7loHux55AJxtDNjNzseXCrf2KFqFZWhrbnF8\u002BWfUl53AMiaLpuluiiYL\u002BAe5XEE8QhpDU1S2UkHqg3sPAEngRCoK\u002BkN92H3JYJSkCjdzPf5rfNm8/v7N4Odq\u002BMnU6KuaruEKEVriY\u002Bkxu3udevXMgnUlOlejqhpLklBKrhZaJEnuRkilGAulnDvzZ33r9n128uN3fwmCWJZbNgSes1joIuYgokuZPZzV8hRDWklJEZ/JlNcaDHIfG7owMNQ7lrrYQBTKns8Y145ZRVGpgiBvxE8yOncj\u002BUfcmUQ8KfR5wwOSqul7KSG/BuH6TeBy\u002B\u002BO1IZd3MZrZgbuXTKaEnv6B4MQ1\u002BezrSEesmTTLmzxdQ6qGbq/Tt0Mo4Lzl99mFxWiqNxhwDPdtazzs4TkhFs9t3dQaOjVwT/PPUWnlPdKI7PRHv4FUpqjTNPma18NdN3SCUAp9PnnlwzIqu7Got/Fb3sHnRcjxkEoLMDW38hnv4uZwLMDztompufgJh4ONGrLXYx\u002BeuR470dHZg6U7GD77W1hLi9mujrpDmAiZeBEy2QKHCoxuMzkSTguP66DqHx4ZhVIZGVNqyeWlWsCz6nIwuYCXY/L5Uq3hiwAtZ2Vpy/zNOP7\u002BCg4cfAWCdc1UPJ05MV\u002B8/AhBI8LslPUH97Q/u5Jee/Pm2VmI/IPD3WMGk703ghByyxWVs1ioPEXiciHVqSialWXpnN3GRFvW\u002B/vvZmBAbRsH265JE7P7QpC2l6s6KeKD2Nlmr3qll4hfdUJN0AUDgwMmnOkHvNuWwiZ60zrfp52b697HjSHgvtftTO733Vsajndurq/cJXjgBwO451kgTdpQXLm1nWtKg14x62VMMDIS/Qlvc3a2de2FYLgVasJtylq68DxNUxHDIY7\u002BmMdtfQF3YZamSCW6OPsSfrpf4Y2h3iXYNbQNmpwttVOpq4d10Eg2UNL8psaEhkiQSoptdj5\u002BFBfVnMkU4fDz3wKngyHkiuKmKBKZTVQaO6bxerDRJrLcf\u002B93\u002BY/efQ2eOXj/v4q8/9g\u002BMBFmMl1eOyIqQsjQrXdt/GtHS/2jZpNJxCKxcDt1H2c1P2FzNUL3jm9Da0uQMBOrJzLxvx/p722Kb2wOQuz2336XiQ3/Yn2TT4wuzhhugDI25fYn2sFmduwaW710FHcKzVBsodO3bX96gRn3cF73Uix7jzEbq6lC99aO8HGKCRcCXocuFOlhB990sbO9VsabFCWztpGautZLXt6mfvH58SoB8cbIqyChIrMoLJxbERf7sE7v8fcfNVOWQ/MnfbqPbPCMXoteWEuJzcaF3p6Gt3GHfP/2wpRmzI\u002BBwcHB6nn\u002B/Pnq\u002BVWQsloGHPHT8WK011C4Ld4oQ7Ov5\u002BSMfu6tP\u002BEBFNO93Q2H8Bsjo6nHJ5cfw2bfsDqq26MKw/F/cm7AqIFlPjv9FEtzaTxQyZ5A/yvJYiz9/nNnIBGbh7IYBbxTPulorzEiX2MYU345lvtRfS3/bzP030D7rSFZ1bXdPiWINzepe9mAND0yA9GJWNVgauwkWLh6NRR0HrSyZtbIwu20ooDf8T/931K1tgZITeeV7KxUKVyXleWJBIydnoLEcrJqkE4lgEBx8Dg1XRIiFaW0XCkVoiiJs5ucGK3a/D8D4J\u002BgANLkFoHCDgAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-09-07T06:13:58.929Z",
+              "WhenOpened": "2024-09-08T01:50:06.474Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             }
           ]
