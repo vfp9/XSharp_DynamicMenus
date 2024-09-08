@@ -17,5 +17,10 @@ Begin Namespace DynamicMenus
             InitializeComponent()
             return
         end constructor
+        
+        Private Method cmdClose_Click(sender As System.Object, e As System.EventArgs) As Void Strict
+            This.MdiParent.Close()
+            Return
+        END METHOD
     End Class 
 End Namespace

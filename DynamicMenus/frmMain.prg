@@ -41,6 +41,8 @@ Begin Namespace DynamicMenus
 			End Set
 		End Property
 
+
+
         Internal Virtual Property mnuSeparator As ToolStripSeparator
 	        Get
 		        Return _mnuSeparator
@@ -60,6 +62,8 @@ Begin Namespace DynamicMenus
 		        Endif
 	        End Set
         End Property
+
+
 
 		Internal Virtual Property mnuClear As ToolStripMenuItem
 			Get
@@ -82,6 +86,8 @@ Begin Namespace DynamicMenus
 				Endif
 			End Set
 		End Property
+
+
 
         Constructor() Strict
             InitializeComponent()
@@ -169,5 +175,24 @@ Begin Namespace DynamicMenus
 
             Return
         End Method
-    End Class
+        
+        Private Method mnuExit_Click(sender As System.Object, e As System.EventArgs) As Void Strict
+            This.Close()
+            Return
+        End Method
+        
+        Private Method mnuStatusBar_Click(sender As System.Object, e As System.EventArgs) As Void Strict
+	        Local showChecked As Logic
+	        showChecked := !Self:mnuStatusBar:Checked
+            
+            With This
+                .mnuStatusBar.Checked   = showChecked
+                .sbrMain.Visible        = showChecked
+                
+                .ClearStatusBarMessage()
+            Endwith
+
+            Return
+        End Method
+    End Class 
 End Namespace

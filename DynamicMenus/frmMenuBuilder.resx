@@ -345,7 +345,7 @@
     <value>8</value>
   </data>
   <data name="cmdRefresh.Text" xml:space="preserve">
-    <value>&amp;Remove</value>
+    <value>&amp;Refresh</value>
   </data>
   <data name="&gt;&gt;cmdRefresh.Name" xml:space="preserve">
     <value>cmdRefresh</value>
