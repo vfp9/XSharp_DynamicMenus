@@ -104,9 +104,7 @@ Begin Namespace DynamicMenus
          
                 ((frmMain)ParentForm).AddDynamicMenuItems(menuItems)
  
-                //For Var lnI = lnCount To 1 Step -1
-                //    This.listItems.Items.RemoveAt(lnI)
-                //Endfor
+                This.listItems.Items.Clear()
                 
                 oToolStripMenuItem = ToolStripMenuItem{}
             End Checked
@@ -115,7 +113,10 @@ Begin Namespace DynamicMenus
         End Method
         
         Private Method cmdRefresh_Click(sender As System.Object, e As System.EventArgs) As Void Strict
-            This.RebuildMenu()
+            With This
+                .RebuildMenu()
+                .txtPrompt.Focus()
+            Endwith
             Return
         End Method
     End Class 
