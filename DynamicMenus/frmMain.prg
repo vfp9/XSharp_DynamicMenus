@@ -41,8 +41,6 @@ Begin Namespace DynamicMenus
 			End Set
 		End Property
 
-
-
         Internal Virtual Property mnuSeparator As ToolStripSeparator
 	        Get
 		        Return _mnuSeparator
@@ -54,7 +52,7 @@ Begin Namespace DynamicMenus
                     _mnuSeparator.MouseLeave -= Handle_MouseLeave
                 Endif
 
-                _mnuSeparator := Value
+                _mnuSeparator = Value
 
                 If _mnuSeparator != Null
                     _mnuSeparator.MouseHover += Handle_MouseHover
@@ -62,8 +60,6 @@ Begin Namespace DynamicMenus
 		        Endif
 	        End Set
         End Property
-
-
 
 		Internal Virtual Property mnuClear As ToolStripMenuItem
 			Get
@@ -77,7 +73,7 @@ Begin Namespace DynamicMenus
                     _mnuClear:Click      -= mnuClear_Click
 				Endif
 
-                _mnuClear := Value
+                _mnuClear = Value
 
                 If _mnuClear != Null
                     _mnuClear.MouseHover += Handle_MouseHover
@@ -86,8 +82,6 @@ Begin Namespace DynamicMenus
 				Endif
 			End Set
 		End Property
-
-
 
         Constructor() Strict
             InitializeComponent()
@@ -105,15 +99,10 @@ Begin Namespace DynamicMenus
             Return
         End Method
 
-        Private Method toolStrip1_ItemClicked(sender As System.Object, e As System.Windows.Forms.ToolStripItemClickedEventArgs) As Void Strict
-            Return
-        End Method
-
-
         Private Method InitializeDynamicMenu() As Void
             Local cultureName As String
             cultureName = Thread.CurrentThread.CurrentCulture.Name
-            
+
             With This
                 .mnuDynamic         = ToolStripMenuItem{}
 	            .mnuSeparator       = ToolStripSeparator{}
@@ -132,67 +121,97 @@ Begin Namespace DynamicMenus
         End Method
 
         Private Method Handle_MouseHover(sender As System.Object, e As System.EventArgs) As Void Strict
+            Local loMenuItem = (ToolStripMenuItem)sender
+            This.sbrMain.Items[0].Text = loMenuItem.Tag
+
             Return
         End Method
 
         Private Method Handle_MouseLeave(sender As System.Object, e As System.EventArgs) As Void Strict
+            This.sbrMain.Items[0].Text = ""
             Return
         End Method
-        
+
         Private Method HandleClick_DynamicItem(sender As System.Object, e As System.EventArgs) As Void Strict
+            MessageBox(((ToolStripMenuItem)sender).Text, 64, This.Text)
+            This.ClearStatusBarMessage()
+            
             Return
         End Method
-        
+
         Private Method mnuClear_Click(sender As System.Object, e As System.EventArgs) As Void Strict
             With This
                 .ReleaseMenu()
                 .ClearStatusBarMessage()
+                .InitializeDynamicMenu()
             Endwith
 
             Return
         End Method
-        
+
         Private Method ClearStatusBarMessage() As Void Strict
             Return
         End Method
-        
+
         Private Method ReleaseMenu() As Void
-            For Var lnI = 1 To This.mnuDynamic.DropDownItems.Count
-                With This.mnuDynamic.DropDownItems
-                    .Item[lnI].MouseHover -= Handle_MouseHover
-                    .Item[lnI].MouseLeave -= Handle_MouseLeave
+            Try
+                For Var lnI = 0 To This.mnuDynamic.DropDownItems.Count
+                    With This.mnuDynamic.DropDownItems
+                        .Item[lnI].MouseHover -= Handle_MouseHover
+                        .Item[lnI].MouseLeave -= Handle_MouseLeave
 
 
-                    Try
-                        .Item[lnI].Click -= HandleClick_DynamicItem
-                    Catch
-                        Nop    
-                    Endtry
-                Endwith
-            Endfor
-
+                        Try
+                            .Item[lnI].Click -= HandleClick_DynamicItem
+                        Catch
+                            Nop
+                        Endtry
+                    Endwith
+                Endfor
+            Catch
+                Nop
+            Endtry
+                        
             This.mnuMain.Items.Remove(This.mnuDynamic)
 
             Return
         End Method
-        
+
         Private Method mnuExit_Click(sender As System.Object, e As System.EventArgs) As Void Strict
             This.Close()
             Return
         End Method
-        
+
         Private Method mnuStatusBar_Click(sender As System.Object, e As System.EventArgs) As Void Strict
 	        Local showChecked As Logic
 	        showChecked := !Self:mnuStatusBar:Checked
-            
+
             With This
                 .mnuStatusBar.Checked   = showChecked
                 .sbrMain.Visible        = showChecked
-                
+
                 .ClearStatusBarMessage()
             Endwith
 
             Return
         End Method
-    End Class 
+        
+        Public Method AddDynamicMenuItems(Items As ToolStripMenuItem[] ) As Void
+	        This.ReleaseMenu()
+            
+            Foreach Item As ToolStripMenuItem In Items
+                Item.MouseHover += Handle_MouseHover
+                Item.MouseLeave += Handle_MouseLeave
+                Item.Click      += HandleClick_DynamicItem
+            Endfor
+                
+            With This.mnuDynamic.DropDownItems
+                .AddRange(Items)
+                .Add(This.mnuSeparator)
+                .Add(This.mnuClear)
+            Endwith 
+
+            This.mnuMain.Items.Add(This.mnuDynamic)
+        End Method
+    End Class
 End Namespace
