@@ -1,5 +1,5 @@
 # XSharp_DynamicMenus
-[简体中文](README.md)|[English](README_En.md)
+[简体中文](README.md) | [English](README_En.md)
 
 ![](DynamicMenus.png)
 
