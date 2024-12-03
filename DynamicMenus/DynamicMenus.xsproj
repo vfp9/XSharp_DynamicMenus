@@ -21,6 +21,8 @@
     <Fox1>True</Fox1>
     <Fox2>True</Fox2>
     <EnforceOverride>True</EnforceOverride>
+    <Vo15>true</Vo15>
+    <Vo9>true</Vo9>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,22 +45,22 @@
       <Name>XSharp.Core</Name>
       <SpecificVersion>False</SpecificVersion>
       <AssemblyName>XSharp.Core.dll</AssemblyName>
-      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.Core.dll</HintPath>
       <Private>True</Private>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="XSharp.RT">
       <Name>XSharp.RT</Name>
       <SpecificVersion>False</SpecificVersion>
       <AssemblyName>XSharp.RT.dll</AssemblyName>
-      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.RT.dll</HintPath>
       <Private>True</Private>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.RT.dll</HintPath>
     </Reference>
     <Reference Include="XSharp.VFP">
       <Name>XSharp.VFP</Name>
       <SpecificVersion>False</SpecificVersion>
       <AssemblyName>XSharp.VFP.dll</AssemblyName>
-      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.VFP.dll</HintPath>
       <Private>True</Private>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.VFP.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
